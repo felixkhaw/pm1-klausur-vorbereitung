@@ -2,7 +2,7 @@ package a5;
 
 public abstract class Strasse {
     
-    private int laenge;
+    private final int laenge;
     
     Strasse(int l){
         laenge = l;
